@@ -1,0 +1,10 @@
+header{
+    height: 20vh;
+}
+
+.about{
+    text-align: center;
+    color:#15a3c7;
+    font-size: 3.4em;
+    font-family: 'Montserrat', sans-serif;
+}

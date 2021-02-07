@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#E0FFFF;
+    background-size: auto 100vh;
+    height: 100vh;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.menu{
+    background-color:	#fffafa;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    transition: background-color 0.8s, color 0.08s;
+}
+
+a {
+    text-decoration: none;
+    color:#15a3c7;
+}
+
+.nameto, .function{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nameto{
+    color:#15a3c7;
+    font-size: 3.4em;
+}
+
+.function{
+    line-height: 1.8em;
+    color:#15a3c7;
+}
+
+.rodape {
+    background:	#15a3c7;
+    background-size: 100vh;
+    padding: 10px;
+}
+
+.rodape p {
+color: whitesmoke;
+text-align: center;
+font-size: 16px;
+font-family: "Jost", sans-serif;
+text-decoration: none;
+}
+
+.picture-lucas{
+    width: 200px;
+    float: right;
+    margin-top: -150px;
+    border-radius: 10px;
+    margin-left: 2em;
+}
