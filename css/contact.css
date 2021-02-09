@@ -1,0 +1,10 @@
+header {
+    height: 20vh;
+}
+
+.contacts-inline{
+    text-align: center;
+    cursor: pointer;
+    font-size: 12em;
+    transition: text-shadow 1s;
+}
