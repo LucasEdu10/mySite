@@ -2,9 +2,28 @@ header{
     height: 20vh;
 }
 
+.container-about{
+    margin: 0px auto 15px;
+    max-width: 1048px;
+    padding: 20px;
+    font-size: 20px;
+}
+
 .about{
-    text-align: center;
     color:#15a3c7;
-    font-size: 3.4em;
+    font-size: 1.4em;
     font-family: 'Montserrat', sans-serif;
+}
+
+.about-inline{
+    margin: 0px 30px 15px;
+    /* max-width: 1048px; */
+    font-size: 24px;
+}
+
+.about-img{
+    width: 200px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 10px;
 }
