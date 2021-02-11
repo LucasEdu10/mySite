@@ -1,0 +1,37 @@
+header{
+    height: 20vh;
+}
+
+.menu{
+    position: fixed;
+}
+
+.competencias{
+    align-items: center;
+    color:#15a3c7;
+    font-size: 6.3em;
+    display: flex;
+    justify-content: space-around;
+    transition: transform 500ms;
+}
+
+.competencias p {
+    font-size: 0.25em;
+    text-align: center;
+    margin-top: 20px;
+    color:#15a3c7;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+.competencias .fab:hover,
+.competencias .fas:hover  {
+transform: scale(1.2);
+}
+
+h2{
+    color:#15a3c7;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    font-weight: bols;
+    text-align: center;
+}

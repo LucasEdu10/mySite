@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+/* @media(max-width: 1200px){
+    section{
+        padding: 15px;
+        width: 500px;
+    }
+}
+@media(max-width: 800px){
+    body{
+        width: 100%;
+        margin: auto;
+    }
+} */
+
 @media (min-width: 400px) {
     body {
       font-size: 14px;

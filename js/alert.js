@@ -1,6 +1,6 @@
 
 $( document ).ready(function() { 
     $('.contact-button').click(function(){
-        window.alert('Serviço indisponivel!!')
+        window.alert('Serviço indisponível!!')
     });
 });
