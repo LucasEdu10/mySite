@@ -1,10 +1,56 @@
-header {
-    height: 20vh;
+
+.container{
+    font-weight: bold;
+    color:#15a3c7;
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contacts-inline{
     text-align: center;
     cursor: pointer;
-    font-size: 12em;
+    font-size: 7em;
     transition: text-shadow 1s;
+}
+
+.contact-name{
+    padding: 10px;
+}
+
+.contac-email{
+    padding: 10px;
+}
+
+.contact-msg{
+    padding: 10px;
+}
+
+.contact-email{
+    margin: 0px auto 15px;
+    padding: 20px 12px;
+    max-width: 1048px;
+}
+
+.form-contact{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 100px;
+}
+
+.contact-button{
+    text-align: end;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.label-msg{
+    padding: 10px;
+}
+
+.msg{
+    margin: 0px; 
+    margin-left: 120px;
+    margin-top: -30px;
+    width: 627px; 
+    height: 257px;
 }

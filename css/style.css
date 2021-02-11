@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+@media (min-width: 400px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* breakpoint */
+  @media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* breakpoint */
+  @media (min-width: 1200px) {
+    body {
+      font-size: 20px;
+    }
+  }
+
+
 body {
     background-color:#E0FFFF;
     background-size: auto 100vh;
@@ -12,21 +33,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container{
-    padding: 20px;
     font-size: 20px;
 }
 
 .menu{
     background-color:	#fffafa;
-    position: fixed;
     width: 100vw;
     top: 0;
     z-index: 1;
@@ -43,6 +55,7 @@ header{
 
 .menu a {
     display: block;
+    padding: 20px 20px;
     transition: background-color 0.8s, color 0.08s;
 }
 
@@ -51,12 +64,21 @@ a {
     color:#15a3c7;
 }
 
+.name{
+    margin: 50px auto 45px;
+    max-width: 1048px;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
 .nameto, .function{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 .nameto{
+    padding: 10px;
     color:#15a3c7;
     font-size: 4.4em;
 }
@@ -70,14 +92,17 @@ a {
     background:	#15a3c7;
     background-size: 100vh;
     padding: 10px;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 
 .rodape p {
-color: whitesmoke;
-text-align: center;
-font-size: 16px;
-font-family: "Jost", sans-serif;
-text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
 }
 
 .picture-lucas{
