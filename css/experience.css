@@ -1,0 +1,44 @@
+header{
+    height: 20vh;
+}
+
+.menu{
+    position: fixed;
+}
+
+.function-job{
+    font-weight: bold;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.container-experience{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.name-experience{
+    padding: 10px;
+    color: #15a3c7;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lista-experiencias {
+    color: #696969;
+    margin-bottom: 1.4em;
+    text-indent: 1.4em;
+    text-align: justify;
+}
+
+.experiencias a {
+    color:#15a3c7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.experiencias p {
+    padding: 10px;
+    color:#15a3c7;
+    font-weight: bold;
+  }
+  
