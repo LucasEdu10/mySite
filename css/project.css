@@ -5,3 +5,21 @@ header{
 .menu{
     position: fixed;
 }
+
+.name{
+    padding: 10px;
+    color: #15a3c7;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px auto -2px;
+}
+
+.descri{
+    color: #696969;
+    text-indent: 1.4em;
+    margin: 0px auto 15px;
+    max-width: 1048px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
