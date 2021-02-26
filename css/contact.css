@@ -37,12 +37,17 @@
     background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: 60px;
+    border: 1px solid rgb(236, 236, 236);
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 35%) 0px 2px 8px;
+    border-radius: 4px;
 }
 
 .contact-button{
     text-align: end;
     border-radius: 10px;
     padding: 5px;
+    margin-right: 20px;
 }
 
 .label-msg{
