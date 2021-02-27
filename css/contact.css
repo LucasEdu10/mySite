@@ -15,12 +15,12 @@
 
 .contact-name{
     padding: 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .contac-email{
     padding: 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .contact-msg{
@@ -46,7 +46,7 @@
 .contact-button{
     text-align: end;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     margin-right: 20px;
 }
 
@@ -55,9 +55,24 @@
 }
 
 .msg{
-    margin: 0px; 
-    margin-left: 120px;
-    margin-top: -30px;
+    /* margin-left: 120px;
+    margin-top: -30px; */
     width: 627px; 
     height: 257px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mail{
+    padding: 5px;
+    /* margin-left: 50px; */
+}
+
+.name_to{
+    padding: 5px;
+    /* margin-left: 50px; */
+}
+
+.texte_input{
+    margin-left: 15%;
 }
