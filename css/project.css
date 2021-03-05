@@ -1,9 +1,13 @@
 header{
-    height: 20vh;
+    height: 5vh;
 }
 
 .menu{
     position: fixed;
+}
+
+.projects{
+    margin-bottom: 50px;
 }
 
 .name{
@@ -22,4 +26,8 @@ header{
     padding: 20px;
     font-size: 20px;
     text-align: justify;
+}
+
+.rodape{
+    position: relative;
 }
