@@ -76,3 +76,7 @@
 .texte_input{
     margin-left: 15%;
 }
+
+.rodape{
+    position: fixed;
+}
