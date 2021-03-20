@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
- @media(max-width: 1000px){
+@media(max-width: 1000px){
     .menu a{
         padding: 10px 6px;
         font-size: 10px;

@@ -1,5 +1,28 @@
-header{
-    height: 10vh;
+@media(max-width: 1000px){
+    .container{
+        font-size: 15px;
+    }
+    .experiencias{
+        /* margin: -8px; */
+    }
+    .container-experience {
+        margin-left: 32px;
+        margin-right: 25px;
+    }
+    header{
+        height: 5vh;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container-experience {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    header{
+        height: 15vh;
+    }
 }
 
 .menu{
@@ -13,8 +36,8 @@ header{
 }
 
 .container-experience{
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
 }
 
 .name-experience{
