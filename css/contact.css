@@ -1,10 +1,32 @@
+/* for mobile */
+@media(max-width: 1000px){
+    .texte_input {
+        margin-left: 0%;
+    }
+    .msg{
+        width: 260px;
+    }
+    .form-contact{
+        margin: 25px;
+        width: 300px;
+    }
+}
+/* for computer */
+@media (min-width: 1200px) {
+    .texte_input{
+        margin-left: 15%;
+    }
+    .msg{
+        width: 627px;
+    }
+    .contact-button{
+        margin-right: 20px;
+    }
+    .form-contact{
+        margin: 60px;
+    }
 
-/* .container{
-    font-weight: bold;
-    color:#15a3c7;
-    font-size: 1.4em;
-    font-family: 'Montserrat', sans-serif;
-} */
+}
 
 .contacts-inline{
     text-align: center;
@@ -36,7 +58,6 @@
 .form-contact{
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    margin: 60px;
     border: 1px solid rgb(236, 236, 236);
     box-sizing: border-box;
     box-shadow: rgb(0 0 0 / 35%) 0px 2px 8px;
@@ -47,7 +68,6 @@
     text-align: end;
     border-radius: 10px;
     padding: 10px;
-    margin-right: 20px;
 }
 
 .label-msg{
@@ -57,7 +77,7 @@
 .msg{
     /* margin-left: 120px;
     margin-top: -30px; */
-    width: 627px; 
+    /* width: 627px;  */
     height: 257px;
     padding: 10px;
     border-radius: 10px;
@@ -71,10 +91,6 @@
 .name_to{
     padding: 5px;
     /* margin-left: 50px; */
-}
-
-.texte_input{
-    margin-left: 15%;
 }
 
 .rodape{
