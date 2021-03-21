@@ -9,15 +9,31 @@
         padding: 10px 6px;
         font-size: 10px;
     }
-}
-
-/* 
-@media(max-width: 800px){
-    body{
-        width: 100%;
-        margin: auto;
+    .name{
+        margin: 130px auto;
+        padding: 36px;
     }
-} */
+    .nameto{
+        max-width: 0px;
+    }
+    @keyframes typing {
+        from{
+            width: 0;
+        }
+        to{
+            width: 26em;
+        }
+    }
+    
+    @keyframes blinkcursor {
+        from{
+            border-right-color: rgb(146 146 146 / 28%);
+        }
+        to{
+            border-right-color: transparent;
+        }
+    }
+}
 
 @media (min-width: 400px) {
     body {
@@ -35,12 +51,44 @@
 /* breakpoint */
 @media (min-width: 1200px) {
 
+    header{
+        height: 20vh;
+    }
+
     .menu a{
         padding: 20px 20px;
     }
 
+    .name{
+        margin: 50px auto;
+        padding: 70px;
+    }
+
     body {
         font-size: 20px;
+    }
+    .name_my{
+        margin-left: 100px;
+    }
+    .nameto{
+        font-size: 4.4em;
+    }
+    @keyframes typing {
+        from{
+            width: 0;
+        }
+        to{
+            width: 56em;
+        }
+    }
+    
+    @keyframes blinkcursor {
+        from{
+            border-right-color: rgb(146 146 146 / 28%);
+        }
+        to{
+            border-right-color: transparent;
+        }
     }
 }
 
@@ -85,11 +133,22 @@ a {
 }
 
 .name{
-    margin: 50px auto 45px;
     max-width: 1048px;
-    padding: 70px;
     align-items: center;
     justify-content: center;
+}
+
+.adjusted_name{
+
+}
+
+.name_my{
+    border-right: 2px solid rgb(146 146 146 / 28%);
+    animation: blinkcursor 500ms steps(35) infinite normal, 
+    typing 4s steps(35) 1s normal both;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
 }
 
 .nameto, .function{
@@ -100,7 +159,6 @@ a {
 .nameto{
     padding: 10px;
     color:#15a3c7;
-    font-size: 4.4em;
 }
 
 .function{

@@ -13,12 +13,12 @@
         margin-bottom: 30px;
     }
     header{
-        height: 20px;
+        height: 5vh;
     }
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) { 
     .about-img{
         width: 200px;
         float: right;
