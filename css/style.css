@@ -11,16 +11,14 @@
     }
 
     .name_my{
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .name{
         margin: 130px auto;
         padding: 36px;
     }
-    .nameto{
-        max-width: 0px;
-    }
+
     @keyframes typing {
         from{
             width: 0;
