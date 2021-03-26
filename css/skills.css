@@ -1,18 +1,42 @@
-header{
-    height: 20vh;
+@media(max-width: 1000px){
+
+    header{
+        height: 10vh;
+    }
+
+    .skills-container{
+        font-size: 16px;
+    }
+
+    .competencias{
+        /* align-items: center; */
+        color: #15a3c7;
+        font-size: 4.8em;
+        justify-content: space-around;
+        transition: transform 500ms;
+        padding: 38px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    header{
+        height: 20vh;
+    }
+
+    .competencias{
+        align-items: center;
+        color:#15a3c7;
+        font-size: 6.3em;
+        display: flex;
+        justify-content: space-around;
+        transition: transform 500ms;
+    }
+
 }
 
 .menu{
     position: fixed;
-}
-
-.competencias{
-    align-items: center;
-    color:#15a3c7;
-    font-size: 6.3em;
-    display: flex;
-    justify-content: space-around;
-    transition: transform 500ms;
 }
 
 .competencias p {

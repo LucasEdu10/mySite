@@ -23,6 +23,7 @@ header{
 }
 
 .name{
+    max-width: 1048px;
     padding: 10px;
     color: #15a3c7;
     font-weight: bold;

@@ -24,7 +24,7 @@
             width: 0;
         }
         to{
-            width: 26em;
+            width: 27em;
         }
     }
     
@@ -76,12 +76,13 @@
     .nameto{
         font-size: 4.4em;
     }
+    
     @keyframes typing {
         from{
             width: 0;
         }
         to{
-            width: 56em;
+            width: 57em;
         }
     }
     
@@ -136,7 +137,7 @@ a {
 }
 
 .name{
-    max-width: 1048px;
+    /* max-width: 1048px; */
     align-items: center;
     justify-content: center;
 }
@@ -145,6 +146,7 @@ a {
 
 }
 
+/* efeito digitando */
 .name_my{
     border-right: 2px solid rgb(146 146 146 / 28%);
     animation: blinkcursor 500ms steps(35) infinite normal, 
@@ -154,7 +156,7 @@ a {
     text-align: center;
 }
 
-.nameto, .function{
+.function{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -162,6 +164,7 @@ a {
 .nameto{
     padding: 10px;
     color:#15a3c7;
+    font-family: 'Special Elite', cursive;
 }
 
 .function{
@@ -192,4 +195,19 @@ a {
     margin-top: -150px;
     border-radius: 10px;
     margin-left: 2em;
+}
+
+/* screen-prompt */
+.tela-prompt{
+    margin: 0px auto 15px;
+    max-width: 1038px;
+    /* border: 2px solid #050505; */
+}
+
+.contacts-inline{
+    margin-top: -75px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 7em;
+    transition: text-shadow 1s;
 }

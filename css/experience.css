@@ -17,8 +17,8 @@
 @media (min-width: 1200px) {
 
     .container-experience {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin: 0px auto 15px;
+        max-width: 1048px;
     }
     header{
         height: 10vh;
