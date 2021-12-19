@@ -42,12 +42,14 @@
 
 .name-experience{
     padding: 10px;
+    margin-bottom: 20px;
     color: #15a3c7;
     font-weight: bold;
     font-size: 20px;
 }
 
 .lista-experiencias {
+    padding: 10px;
     color: #696969;
     margin-bottom: 1.4em;
     text-indent: 1.4em;
@@ -67,4 +69,11 @@
 
 .rodape{
     position: relative;
+}
+
+.div-inline {
+    border-bottom: 1px solid rgb(184, 184, 184);
+    line-height: 20px;
+    max-width: 1080px;
+    margin-bottom: 15px;
 }
